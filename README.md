@@ -1,7 +1,7 @@
 # Javascript
 
-# Stored username and password :
-# username = Rahul 
-# Password = zxcv
+[ Stored username and password :
+username = Rahul 
+Password = zxcv 
 
-# enter above and see the console 
+enter above and see the console] 
