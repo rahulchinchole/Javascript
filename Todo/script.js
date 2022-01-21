@@ -1,0 +1,31 @@
+var button = document.getElementById("enter");
+var input = document.getElementById("userinput");
+var ul = document.querySelector("ul");
+
+function inputValue(){
+	return input.value.length;
+}
+
+function createListElement() {
+	var li = document.createElement("li");
+	li.appendChild(document.createTextNode(input.value));
+	ul.appendChild(li);
+	input.value = "";
+}
+
+function afterClick() {
+	if (inputValue() > 0) {
+		createListElement();
+	}
+}
+
+function afterKeyPress(event) {
+	if (inputValue() > 0 && event.code === "Enter") {
+		createListElement();
+	}
+}
+
+button.addEventListener("click", afterClick)
+
+input.addEventListener("keypress", afterKeyPress)
+
