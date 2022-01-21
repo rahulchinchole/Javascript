@@ -1,7 +1,5 @@
-# Javascript
+for JS AUTH app use sample,
+username = Rahul 
+Password = zxcv
 
-Stored username and password :
-[ username = Rahul 
-Password = zxcv ]
-
-enter above and see the console
+See console for the result
